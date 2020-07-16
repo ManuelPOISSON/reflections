@@ -8,11 +8,17 @@ the staging area is something between both. It allows to commit little by little
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+git diff compare working directory and staging area
+git diff --staged compare the commit we're on and staging area
+Comparing a commit to its parent
+git show commit_id
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
+git log --graph [--oneline (for shorter)]
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
